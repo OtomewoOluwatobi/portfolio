@@ -3,8 +3,8 @@ import { contact } from '../data/portfolio.js';
 export default function Contact() {
   const downloadResume = () => {
     const link = document.createElement('a');
-    link.href = '/resume.pdf';
-    link.download = 'Oluwatobi_Otomewo_Resume.pdf';
+    link.href = '/Oluwatobi_Otomewo.pdf';
+    link.download = 'Oluwatobi_Otomewo.pdf';
     link.click();
   };
 
