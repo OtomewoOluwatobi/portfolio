@@ -51,7 +51,7 @@ export const experience = [
     period: 'Jun 2023 — Present',
     badge: 'Full-time', badgeClass: 'tb-ft',
     role: 'Senior Backend Developer',
-    company: 'HMS (ATSL) — Remote[United States]',
+    company: 'HMS (ATSL) — United States (Remote)',
     points: [
       'Delivered hands-on backend development for business-critical platforms, building and maintaining <strong>Node.js / TypeScript</strong> and C# APIs supporting enterprise workflows.',
       'Contributed to backend services designed around <strong>event-driven and serverless-style patterns</strong>, improving scalability and reducing operational overhead.',
@@ -63,7 +63,7 @@ export const experience = [
     period: 'Apr 2025 — Dec 2025',
     badge: 'Contract', badgeClass: 'tb-ct',
     role: 'Lead Backend Developer',
-    company: 'Swiftze — Remote',
+    company: 'Swiftze — UAE | United Kingdom (Remote)',
     points: [
       'Architected and delivered backend services using <strong>Python (Fast API)</strong>, supporting internal dashboards and API-driven workflows.',
       'Implemented asynchronous processing and real-time feedback mechanisms, improving system responsiveness and user experience.',
@@ -75,7 +75,7 @@ export const experience = [
     period: 'Aug 2024 — Oct 2025',
     badge: 'Remote', badgeClass: 'tb-rm',
     role: 'Senior Software Developer',
-    company: 'The Envoy Nation — Remote',
+    company: 'The Envoy Nation — United Kingdom (Remote)',
     points: [
       'Acted as a hands-on technical lead, shaping backend architecture and influencing technical direction across <strong>C#/.NET microservices</strong> and event-driven systems.',
       'Designed and delivered scalable, cloud-ready APIs, ensuring maintainability, security, and alignment with modern engineering best practices.',
@@ -87,7 +87,7 @@ export const experience = [
     period: 'Jan 2024 — Jul 2025',
     badge: 'Contract', badgeClass: 'tb-ct',
     role: 'Lead Backend Developer',
-    company: 'South-way Centre — United Kingdom',
+    company: 'South-way Centre — United Kingdom (Remote)',
     points: [
       'Built data-driven platforms using <strong>Node.js / TypeScript</strong> backend, delivering scalable APIs and internal services.',
       'Designed backend services following serverless and managed-cloud design principles, improving scalability and deployment efficiency.',
@@ -122,7 +122,7 @@ export const experience = [
   {
     period: 'Aug 2018 — Aug 2023',
     badge: 'Full-time', badgeClass: 'tb-ft',
-    role: 'Lead Backend Developer',
+    role: 'Co-Founder & Lead Backend Engineer',
     company: 'Hostel.ng / Zimmr — Nigeria',
     points: [
       'Built and scaled cloud-hosted backend services supporting <strong>10,000+ daily users</strong>, improving overall system performance by 30%.',
@@ -142,7 +142,6 @@ export const experience = [
       'Defined <strong>API-first architecture</strong>, database schemas, and modular service boundaries to support scalable growth and long-term maintainability.',
       'Established <strong>Dockerised CI/CD pipelines</strong> and structured deployment workflows, improving release reliability and reducing operational risk.',
       'Oversaw cloud infrastructure decisions (<strong>AWS / managed services</strong>), ensuring production resilience, monitoring, and cost-aware scaling.',
-      'Contributed to product roadmap planning and technical feasibility decisions as a founding stakeholder, aligning engineering execution with business objectives.',
     ],
   },
 ];
