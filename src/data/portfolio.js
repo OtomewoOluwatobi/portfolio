@@ -48,6 +48,18 @@ export const skills = [
 
 export const experience = [
   {
+    period: 'Jun 2023 — Present',
+    badge: 'Full-time', badgeClass: 'tb-ft',
+    role: 'Senior Backend Developer',
+    company: 'HMS (ATSL) — Remote[United States]',
+    points: [
+      'Delivered hands-on backend development for business-critical platforms, building and maintaining <strong>Node.js / TypeScript</strong> and C# APIs supporting enterprise workflows.',
+      'Contributed to backend services designed around <strong>event-driven and serverless-style patterns</strong>, improving scalability and reducing operational overhead.',
+      'Collaborated closely with product, compliance, and delivery teams to design <strong>API-first solutions</strong>, database schemas, and authentication flows aligned with regulatory requirements.',
+      'Improved engineering standards and delivery quality through <strong>CI/CD automation</strong>, automated testing, and cloud-native deployment practices.',
+    ],
+  },
+  {
     period: 'Apr 2025 — Dec 2025',
     badge: 'Contract', badgeClass: 'tb-ct',
     role: 'Lead Backend Developer',
@@ -84,18 +96,6 @@ export const experience = [
     ],
   },
   {
-    period: 'Jun 2023 — Present',
-    badge: 'Full-time', badgeClass: 'tb-ft',
-    role: 'Senior Backend Developer',
-    company: 'HMS (ATSL) — United Kingdom',
-    points: [
-      'Delivered hands-on backend development for business-critical platforms, building and maintaining <strong>Node.js / TypeScript</strong> and C# APIs supporting enterprise workflows.',
-      'Contributed to backend services designed around <strong>event-driven and serverless-style patterns</strong>, improving scalability and reducing operational overhead.',
-      'Collaborated closely with product, compliance, and delivery teams to design <strong>API-first solutions</strong>, database schemas, and authentication flows aligned with regulatory requirements.',
-      'Improved engineering standards and delivery quality through <strong>CI/CD automation</strong>, automated testing, and cloud-native deployment practices.',
-    ],
-  },
-  {
     period: 'Aug 2021 — Aug 2023',
     badge: 'Full-time', badgeClass: 'tb-ft',
     role: 'Lead Backend Developer',
@@ -129,6 +129,20 @@ export const experience = [
       'Led microservice refactoring initiatives, improving platform reliability and release velocity by 25%.',
       'Integrated third-party APIs and payment gateways following secure encryption and compliance standards.',
       'Implemented monitoring and observability tooling, reducing production incidents by <strong>40%</strong>.',
+    ],
+  },
+  {
+    period: 'Jun 2017 — Present',
+    badge: 'Full-time', badgeClass: 'tb-ft',
+    role: 'Co-Founder & Lead Backend Engineer',
+    company: 'Danoitech — Nigeria (Remote)',
+    points: [
+      'Co-founded and led backend architecture and platform engineering from concept to production, delivering secure, scalable, <strong>API-driven systems</strong> across multiple product initiatives.',
+      'Designed and implemented core backend services using <strong>Node.js and Laravel</strong>, covering authentication, business workflows, third-party integrations, and internal operational tooling.',
+      'Defined <strong>API-first architecture</strong>, database schemas, and modular service boundaries to support scalable growth and long-term maintainability.',
+      'Established <strong>Dockerised CI/CD pipelines</strong> and structured deployment workflows, improving release reliability and reducing operational risk.',
+      'Oversaw cloud infrastructure decisions (<strong>AWS / managed services</strong>), ensuring production resilience, monitoring, and cost-aware scaling.',
+      'Contributed to product roadmap planning and technical feasibility decisions as a founding stakeholder, aligning engineering execution with business objectives.',
     ],
   },
 ];
