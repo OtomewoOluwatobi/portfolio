@@ -48,26 +48,27 @@ export const skills = [
 
 export const experience = [
   {
-    period: 'Jun 2023 — Present',
-    badge: 'Full-time', badgeClass: 'tb-ft',
-    role: 'Senior Backend Developer',
-    company: 'HMS (ATSL) — United State',
-    points: [
-      'Architected a <strong>multi-tenant RBAC</strong> system with JWT + session security serving 10K+ daily users.',
-      'Migrated legacy monolith to <strong>Node.js/TypeScript microservices</strong>; achieved 99.9% uptime SLA.',
-      'Engineered real-time ICU alert platform with <strong>FHIR HL7 spec</strong> and NHS security standards.',
-      'Led an 8-engineer team with weekly sprints, design reviews and cross-functional stakeholder alignment.',
-    ],
-  },
-  {
     period: 'Apr 2025 — Dec 2025',
     badge: 'Contract', badgeClass: 'tb-ct',
     role: 'Lead Backend Developer',
-    company: 'Swiftze — (Nigeria | UAE)',
+    company: 'Swiftze — Remote',
     points: [
-      'Built a <strong>cross-border payments API</strong> (Flutterwave / Stripe) with automatic currency conversion.',
-      'Designed an <strong>AI-powered KYC verification</strong> pipeline cutting onboarding fraud by 34%.',
-      'Implemented event-driven webhooks with Redis pub/sub for real-time transaction notifications.',
+      'Architected and delivered backend services using <strong>Python (Fast API)</strong>, supporting internal dashboards and API-driven workflows.',
+      'Implemented asynchronous processing and real-time feedback mechanisms, improving system responsiveness and user experience.',
+      'Provided architectural guidance and mentorship to engineers, promoting scalable, maintainable backend patterns.',
+      'Worked closely with product and design teams to iterate rapidly while maintaining security and data integrity.',
+    ],
+  },
+  {
+    period: 'Aug 2024 — Oct 2025',
+    badge: 'Remote', badgeClass: 'tb-rm',
+    role: 'Senior Software Developer',
+    company: 'The Envoy Nation — Remote',
+    points: [
+      'Acted as a hands-on technical lead, shaping backend architecture and influencing technical direction across <strong>C#/.NET microservices</strong> and event-driven systems.',
+      'Designed and delivered scalable, cloud-ready APIs, ensuring maintainability, security, and alignment with modern engineering best practices.',
+      'Worked closely with product managers and senior stakeholders to translate complex requirements into robust, production-ready solutions.',
+      'Remained close to the code, delivering backend services and supporting admin-facing UI features while improving auditability and system reliability.',
     ],
   },
   {
@@ -76,20 +77,22 @@ export const experience = [
     role: 'Lead Backend Developer',
     company: 'South-way Centre — United Kingdom',
     points: [
-      'Built a <strong>compliance & case-management</strong> platform managing sensitive NHS-regulated data.',
-      'GDPR-compliant data pipeline for multi-agency referrals with field-level encryption.',
-      'Integrated automated reporting module (PDF) reducing manual admin work by 70%.',
+      'Built data-driven platforms using <strong>Node.js / TypeScript</strong> backend, delivering scalable APIs and internal services.',
+      'Designed backend services following serverless and managed-cloud design principles, improving scalability and deployment efficiency.',
+      'Owned features end-to-end across API design, data modelling, and authentication, supporting rapid and reliable product iteration.',
+      'Optimised frontend–API communication and caching strategies, improving perceived performance by <strong>60%</strong> across customer-facing workflows.',
     ],
   },
   {
-    period: 'Aug 2024 — Oct 2025',
-    badge: 'Remote', badgeClass: 'tb-rm',
-    role: 'Senior Software Developer',
-    company: 'The Envoy Nation — United Kingdom',
+    period: 'Jun 2023 — Present',
+    badge: 'Full-time', badgeClass: 'tb-ft',
+    role: 'Senior Backend Developer',
+    company: 'HMS (ATSL) — United Kingdom',
     points: [
-      'Engineered a <strong>multi-channel push/email notification</strong> engine delivering 250K+ messages/day.',
-      'API performance optimisation via Redis caching dropped average response time by <strong>60%</strong>.',
-      'Mentored 4 junior engineers; delivered 95% on-time sprint completion across 12 sprints.',
+      'Delivered hands-on backend development for business-critical platforms, building and maintaining <strong>Node.js / TypeScript</strong> and C# APIs supporting enterprise workflows.',
+      'Contributed to backend services designed around <strong>event-driven and serverless-style patterns</strong>, improving scalability and reducing operational overhead.',
+      'Collaborated closely with product, compliance, and delivery teams to design <strong>API-first solutions</strong>, database schemas, and authentication flows aligned with regulatory requirements.',
+      'Improved engineering standards and delivery quality through <strong>CI/CD automation</strong>, automated testing, and cloud-native deployment practices.',
     ],
   },
   {
@@ -98,20 +101,10 @@ export const experience = [
     role: 'Lead Backend Developer',
     company: 'ASCO — Nigeria',
     points: [
-      'Designed <strong>supply-chain ERP</strong> with Node.js/TypeScript handling ₦500M+ daily transactions.',
-      'Built CI/CD pipelines (GitHub Actions + Docker) reducing deployment errors by <strong>45%</strong>.',
-      'Implemented bulk-import system for inventory; 98% data accuracy across 50K+ records.',
-    ],
-  },
-  {
-    period: 'Aug 2018 — Aug 2023',
-    badge: 'Full-time', badgeClass: 'tb-ft',
-    role: 'Lead Backend Developer',
-    company: 'Hostel.ng / Zimmr — Nigeria',
-    points: [
-      'Built <strong>real-time property and booking system</strong> handling 500+ concurrent socket connections.',
-      'Architected multi-tenancy with role-based access; reduced security incidents by <strong>40%</strong>.',
-      'Geolocation search API (PostGIS + Redis) returning results in under 200ms.',
+      'Architected and maintained high-availability enterprise platforms using <strong>Laravel and .NET</strong>, achieving 99.9% uptime.',
+      'Implemented secure authentication and <strong>RBAC controls</strong>, reducing unauthorised access attempts by 40%.',
+      'Introduced <strong>Docker-based deployments and CI/CD pipelines</strong>, reducing deployment errors by 45%.',
+      'Led cross-functional Agile delivery, improving sprint success rates to 95% through structured planning and code review practices.',
     ],
   },
   {
@@ -120,9 +113,22 @@ export const experience = [
     role: 'Full Stack Developer',
     company: 'Impact One (RGDN) — Nigeria',
     points: [
-      'Developed a <strong>data-driven grant management</strong> platform for NGO reporting and disbursement.',
-      'Built a React dashboard with real-time analytics; improved stakeholder report speed by 55%.',
-      'Implemented SMS alert system (Twilio) reaching 3,500+ beneficiary households monthly.',
+      'Delivered full-stack features using <strong>Laravel, React Native, and REST APIs</strong>, improving response times by 40%.',
+      'Built secure authentication and access-control modules aligned with industry best practices.',
+      'Optimised database queries and API performance, improving system efficiency by 30%.',
+      'Supported production operations through automation, documentation, and CI/CD integration.',
+    ],
+  },
+  {
+    period: 'Aug 2018 — Aug 2023',
+    badge: 'Full-time', badgeClass: 'tb-ft',
+    role: 'Lead Backend Developer',
+    company: 'Hostel.ng / Zimmr — Nigeria',
+    points: [
+      'Built and scaled cloud-hosted backend services supporting <strong>10,000+ daily users</strong>, improving overall system performance by 30%.',
+      'Led microservice refactoring initiatives, improving platform reliability and release velocity by 25%.',
+      'Integrated third-party APIs and payment gateways following secure encryption and compliance standards.',
+      'Implemented monitoring and observability tooling, reducing production incidents by <strong>40%</strong>.',
     ],
   },
 ];
