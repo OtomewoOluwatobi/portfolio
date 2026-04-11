@@ -1,7 +1,11 @@
 import { useEffect, useState } from 'react';
+import { Link, useLocation, useNavigate } from 'react-router-dom';
 
 export default function Nav() {
   const [scrolled, setScrolled] = useState(false);
+  const location = useLocation();
+  const navigate = useNavigate();
+  const isProjects = location.pathname === '/projects';
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 60);
@@ -10,12 +14,17 @@ export default function Nav() {
   }, []);
 
   const scrollTo = (id) => {
-    document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' });
+    if (isProjects) {
+      navigate('/');
+      setTimeout(() => document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' }), 100);
+    } else {
+      document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' });
+    }
   };
 
   return (
     <nav className={scrolled ? 'scrolled' : ''}>
-      <a href="#" className="nav-logo">Oluwatobi<span className="dot">.</span></a>
+      <Link to="/" className="nav-logo">Oluwatobi<span className="dot">.</span></Link>
       <ul className="nav-links">
         {['about', 'skills', 'experience', 'impact', 'education', 'contact'].map(s => (
           <li key={s}>
@@ -24,6 +33,9 @@ export default function Nav() {
             </a>
           </li>
         ))}
+        <li>
+          <Link to="/projects" className={isProjects ? 'active' : ''}>Projects</Link>
+        </li>
       </ul>
       <button className="nav-cta" onClick={() => scrollTo('contact')}>
         Hire Me

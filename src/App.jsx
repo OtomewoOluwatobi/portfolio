@@ -1,4 +1,5 @@
 import { useEffect } from 'react';
+import { Routes, Route } from 'react-router-dom';
 import './App.css';
 
 import Cursor from './components/Cursor';
@@ -13,9 +14,9 @@ import Impact from './components/Impact';
 import Education from './components/Education';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import Projects from './components/Projects';
 
-export default function App() {
-  // Scroll-reveal observer
+function HomePage() {
   useEffect(() => {
     const obs = new IntersectionObserver(
       (entries) => {
@@ -28,8 +29,6 @@ export default function App() {
       },
       { threshold: 0.15 }
     );
-
-    // Observe all .sr elements (re-query after mount so components have rendered)
     const attach = () => {
       document.querySelectorAll('.sr').forEach(el => obs.observe(el));
     };
@@ -39,9 +38,7 @@ export default function App() {
 
   return (
     <>
-      <Cursor />
       <Loader />
-      <Nav />
       <main>
         <Hero />
         <Marquee />
@@ -53,6 +50,19 @@ export default function App() {
         <Contact />
       </main>
       <Footer />
+    </>
+  );
+}
+
+export default function App() {
+  return (
+    <>
+      <Cursor />
+      <Nav />
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/projects" element={<Projects />} />
+      </Routes>
     </>
   );
 }
