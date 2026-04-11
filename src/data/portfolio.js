@@ -190,6 +190,7 @@ export const projects = [
     stack: ['Laravel', 'TypeScript', 'MySQL',  'JWT', 'Redis', 'AWS', 'Docker', 'Payment APIs', 'Microservices'],
     visualType: 'fallback',
     visualBg: 'linear-gradient(135deg,#1A0800 0%,#2E1200 50%,#3A1500 100%)',
+    imageSrc: "https://hostel.ng/static/media/hostelng_logo.212b475260cd54ad10e7.png",
     fallbackTitle: 'HOSTEL.NG',
     fallbackSub: 'STUDENT ACCOMMODATION PLATFORM',
     fallbackBadges: [
