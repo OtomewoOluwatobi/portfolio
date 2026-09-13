@@ -7,7 +7,10 @@ export default function Education() {
         <div className="edu-col-head">Education</div>
         {education.map((e, i) => (
           <div className="edu-entry sr" key={i}>
-            <div className="edu-deg">{e.deg}</div>
+            <div className="edu-deg">
+              {e.deg}
+              {e.cert && <span className="edu-cert">Certification</span>}
+            </div>
             <div className="edu-school">{e.school}</div>
             <div className="edu-yr">{e.yr}</div>
           </div>

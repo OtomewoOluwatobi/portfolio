@@ -56,8 +56,9 @@ export default function Hero() {
           <span className="l3" data-text="ENGINEER.">ENGINEER.</span>
         </h1>
         <p className="hero-sub">
-          10+ years building scalable APIs, microservices & real-time platforms
-          across <strong>healthtech, fintech &amp; proptech</strong> — from Nigeria to United Kingdom.
+          10+ years building integration platforms and distributed APIs across
+          Java, .NET, Node.js, and Python — <strong>healthtech, fintech, proptech &amp; live events</strong>,
+          from Nigeria to Leicester.
         </p>
         <div className="hero-actions">
           <button className="btn-green" onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}>

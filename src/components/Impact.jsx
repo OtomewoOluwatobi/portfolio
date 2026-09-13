@@ -9,8 +9,7 @@ export default function Impact() {
         {impact.map((cell, i) => (
           <div
             key={i}
-            className="i-cell sr"
-            style={cell.span ? { gridColumn: 'span 2' } : {}}
+            className={`i-cell sr${cell.span ? ' span' : ''}`}
           >
             <div className="i-stripe" />
             <div className="i-big">{cell.big}</div>

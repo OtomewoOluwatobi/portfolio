@@ -4,6 +4,12 @@ import { projects } from '../data/portfolio';
 
 // ── metric icons keyed by index (pure rendering, no data) ──
 const METRIC_ICONS = {
+  sweeetboards: [
+    <svg key="0" width="11" height="11" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24"><rect x="3" y="8" width="18" height="13" rx="2"/><path d="M12 8V3m0 0L8 7m4-4l4 4"/></svg>,
+    <svg key="1" width="11" height="11" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>,
+    <svg key="2" width="11" height="11" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>,
+    <svg key="3" width="11" height="11" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>,
+  ],
   hostel: [
     <svg key="0" width="11" height="11" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>,
     <svg key="1" width="11" height="11" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/></svg>,
@@ -154,7 +160,7 @@ export default function Projects() {
 
   useEffect(() => {
     const timer = setTimeout(() => {
-      if (s1Ref.current) countUp(s1Ref.current, 4, '', 1400);
+      if (s1Ref.current) countUp(s1Ref.current, 5, '', 1400);
       if (s2Ref.current) countUp(s2Ref.current, 10, 'K+', 1800);
       if (s3Ref.current) countUp(s3Ref.current, 99.9, '%', 2000);
       if (s4Ref.current) countUp(s4Ref.current, 10, '+', 1600);
@@ -167,12 +173,13 @@ export default function Projects() {
   return (
     <>
       <header className="proj-page-header">
-        <div className="ph-tag">Selected Work · 2018 – 2025</div>
+        <div className="ph-tag">Selected Work · 2018 – 2026</div>
         <h1 className="ph-h1">REAL <span>SYSTEMS.</span><br />REAL IMPACT.</h1>
-        <p className="ph-sub">Production projects across FinTech, real estate, healthcare, and enterprise — built to scale, secured to last, and shipped on time.</p>
+        <p className="ph-sub">Integration platforms and distributed backends across live events, healthcare, real estate, marketplace, and enterprise — Java, .NET, Node.js, and Python.</p>
         <div className="ph-filters">
           {[
             { key: 'all', label: 'All Projects' },
+            { key: 'events', label: 'Live Events' },
             { key: 'marketplace', label: 'Marketplace' },
             { key: 'realestate', label: 'Real Estate' },
             { key: 'api', label: 'Backend API' },
@@ -238,7 +245,7 @@ export default function Projects() {
       <section className="proj-cta-section">
         <div className="cta-text">
           <h2>LIKE WHAT<br />YOU <span>SEE?</span></h2>
-          <p>These are just four highlights from 10+ years of shipping. Every project is engineered for reliability, built to scale, and designed with the next engineer in mind. Let's build something great together.</p>
+          <p>These are selected highlights from 10+ years of shipping. Every project is engineered for reliability, built to scale, and designed with the next engineer in mind. Let's build something great together.</p>
         </div>
         <div className="proj-cta-actions">
           <a href="/#contact" className="btn-green">

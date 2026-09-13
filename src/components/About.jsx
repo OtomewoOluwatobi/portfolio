@@ -42,12 +42,12 @@ export default function About() {
             </div>
             <div className="about-content-col">
                 <blockquote className="about-quote sr">
-                    "I don't just write code — I architect systems that scale."
+                    "I design the backends that connect systems — APIs, events, and integrations that stay up when partners and volume both increase."
                 </blockquote>
                 <p className="about-body sr sr-d1">
-                    Senior Backend Engineer with over 10 years of experience across .NET, Node.js, Laravel, Python, & cloud-hosted architectures, 
-                    I specialise in transforming legacy systems into reliable, scalable, production-grade platforms, particularly within 
-                    regulated and operationally sensitive environments.
+                    Senior Backend Engineer with 10+ years across Java, Kotlin, .NET, Node.js, Python, and Laravel.
+                    I specialise in integration platforms and distributed services — REST APIs, event-driven architectures,
+                    and production observability in cloud-native, operationally sensitive environments.
                 </p>
                 <div className="about-stats">
                     <div className="ast sr sr-d1">
